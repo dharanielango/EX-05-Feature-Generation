@@ -20,7 +20,7 @@ Save the data to the file
 
 # Program:
 ## Data.csv :
-```
+~~~
 import pandas as pd
 df=pd.read_csv("data.csv")
 df
@@ -129,7 +129,7 @@ df4
 ~~~
 
 ## Titanic.csv :
-```
+~~~
 
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
@@ -184,7 +184,7 @@ from sklearn.preprocessing import RobustScaler
 sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
 df5
-```
+~~~
 
 
 
@@ -221,6 +221,7 @@ df5
 
 ### Encoded Dataset:
 ![image](https://user-images.githubusercontent.com/113017853/195595456-a42218d6-ef59-4103-8ac5-89b93db050bc.png)
+
 ![image](https://user-images.githubusercontent.com/113017853/195595551-64343355-8929-4c02-ac05-42e2aae1a0bd.png)
 
 ### Data Scaling using MinMaxScaler:
